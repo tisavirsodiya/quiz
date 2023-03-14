@@ -1,0 +1,41 @@
+body
+{
+    background-color: skyblue;
+}
+.start_btn
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(50%,50%);
+  border: 2px  solid white;
+  padding:10px 30px;
+  color:white;
+  border-radius:10px; 
+  font-size:20px; 
+   cursor: pointer;
+}
+.start_btn:hover
+{ 
+background-color: white;
+color:skyblue;
+}
+.inactive
+{
+    display: none;
+}
+.quiz_box 
+{
+    position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(50%,50%);
+  border: 2px  solid white;
+  padding:10px 30px;
+  color:white;
+  border-radius:10px; 
+  font-size:20px; 
+  /* padding:30px; */
+  max-width: 500px;
+  /* width:100%;  */
+}

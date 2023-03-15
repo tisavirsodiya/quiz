@@ -85,3 +85,47 @@ color:skyblue;
   justify-content: space-between;
   align-items: center;
 }
+.result
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(25%,25%);
+  /* border: 2px  solid white; */
+  padding:10px 30px;
+  color:white;
+  /* border-radius:10px;  */
+  font-size:40px; 
+  background-color: rgb(41, 127, 161);
+}
+.total
+{
+  font-size:20px;
+  background-color: blue;
+  padding: 10px;
+  margin-top:10px;
+}
+.right
+{
+  font-size:20px;
+  background-color: blue;
+  padding: 10px;
+  margin-top:10px;
+
+}
+.wrong
+{
+  font-size:20px;
+  background-color: blue;
+  padding: 10px;
+  margin-top:10px;
+
+}
+.percentage
+{
+  font-size:20px;
+  background-color: blue;
+  padding: 10px;
+  margin-top:10px;
+
+}
